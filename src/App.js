@@ -1,11 +1,18 @@
 import React from 'react';
 import { hot } from 'react-hot-loader';
-import './App.css';
+import Container from 'react-bootstrap/Container';
+
+//import './App.css';
+import Header from './components/header';
+import About from './components/about';
 
 const App = () => (
-  <div className="App">
-    <h1>Web Development forEach(!Dummies)</h1>
-  </div>
+  <Container className="App">
+    <Header />
+    <React.StrictMode>
+      <About />
+    </React.StrictMode>
+  </Container>
 );
 
 export default hot(module)(App);
