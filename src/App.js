@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Header from './components/header';
 import Banner from './components/banner';
 import About from './components/about';
+import Cards from './components/cards';
 import Footer from './components/footer';
 
 import './styles/App.css';
@@ -16,6 +17,7 @@ const App = () => (
     <React.StrictMode>
       <Banner />
       <About />
+      <Cards />
     </React.StrictMode>
     <Footer />
   </Container>
