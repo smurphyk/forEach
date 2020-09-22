@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 
-import '../styles/banner.css';
+import '../styles/banner.scss';
 
 const Banner = () => {
   return (

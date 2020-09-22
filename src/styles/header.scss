@@ -1,0 +1,29 @@
+@import './constants.scss';
+
+#header {
+  z-index: 12;
+  margin-bottom: 2rem;
+  background-color: $white;
+  padding: 1rem;
+}
+
+.main__navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#main__logo {
+  text-decoration: none;
+  font-size: 1.7rem;
+  box-shadow: .2rem .2rem 1rem $blue;
+  border-radius: .5rem;
+  padding: .5rem;
+}
+
+.nav__item {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: $blue;
+  font-size: 1.7rem;
+}

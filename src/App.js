@@ -9,10 +9,10 @@ import About from './components/about';
 import Cards from './components/cards';
 import Footer from './components/footer';
 
-import './styles/App.css';
+import './styles/App.scss';
 
 const App = () => (
-  <Container className="App">
+  <Container id="App">
     <Header />
     <React.StrictMode>
       <Banner />

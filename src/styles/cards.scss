@@ -1,0 +1,12 @@
+@import './constants.scss';
+
+#cards {
+  background-color: $white;
+}
+
+.concept__card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  background-color: $dark-grey;
+}
