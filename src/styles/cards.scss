@@ -1,12 +1,32 @@
 @import './constants.scss';
 
 #cards {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  gap: 3rem;
   background-color: $white;
 }
 
-.concept__card {
+.card__grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
 
+.concept__card {
   background-color: $dark-grey;
+  border: .35rem solid $blue;
+  border-radius: 1.5rem;
+  color: $white;
+  margin: 1.5rem;
+  padding: 1rem;
+  width: 50rem;
+}
+
+.related__concepts-item {
+  list-style: none;
+  text-align: center;
+  margin: .5rem auto;
+  margin-right: 2rem;
 }

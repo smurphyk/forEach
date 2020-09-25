@@ -1,0 +1,36 @@
+{
+  "category": "HTML",
+  "topic": "Markup Language",
+  "definition": "A markup language is a computer language that uses tags to define elements within a document. It is human-readable, meaning markup files contain standard words, rather than typical programming syntax. While several markup languages exist, the two most popular are HTML and XML",
+  "translation": "Markup languages create a bridge between humans and computers. By using tags and attributes, markup languages allow humans to use a language they understand to tell computers/browsers what to display. Basically, Markup languages allow people to communicate to a computer/browser in a much easier way, through common keywords that people can associate with common functionality."
+}
+{
+  "category": "HTML",
+  "topic": "HTML",
+  "definition": "HTML stands for Hypertext Markup Language. HTML is a standardized system for tagging text files to acheive font, color, graphic, and hyperlink effects on web applications.",
+  "translation": "HTML is an organized method that allows you to tag or reference sections of a website so you can tell the browser what each section of the document should look like."
+}
+{
+  "category": "HTML",
+  "topic": "Tags",
+  "definition": "Tags are sets of characters that provide formatted commands for a web page. At the core of the tag are the directions required to visually display website sections.",
+  "translation": "HTML tags are like indicators that break up various sections of a website. Each tag has a different meaning and purpose related to what kind of data you are trying to display. For instance an <img /> tag would be used for an image, and a set of <p></p> tags would indicate a section of website containing a paragraph or two."
+}
+{
+  "category": "HTML",
+  "topic": "DOM",
+  "definition": "The DOM or Document Object Model is an application programming interface (API) for HTML and well-formed XML documents. It defines the local structure of documents and the way a document is accessed and manipulated.",
+  "translation": "The DOM is basically a data management system. It organizes the structure in which your HTML elements and content are displayed and interacted with."
+}
+{
+  "category": "HTML",
+  "topic": "Divs",
+  "definition": "The <div> tag defines a division or section in an HTML document. This tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript",
+  "translation": "<div> tags can be easily associated with a division, or separation. This is a common tag used to organize specific sections of HTML that require specific styling or spacing."
+}
+{
+  "category": "HTML",
+  "topic": "Semantic Tags",
+  "definition": "Semantic tags are tags which clearly describe their meaning in a human- and machine-readable way. <header>, <footer>, and <article> are all considered semantic because they acurately describe the purpose of the element and type of content that is contained within them.",
+  "translation": "Semantic tags are an easy way to organize code in a way that even those with less experience coding can see what the purpose of the code within would refer to. An <article> tag as explained above, will contain an article, and not a picture for instance."
+}
