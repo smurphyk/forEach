@@ -1,8 +1,7 @@
 @import './constants.scss';
 
 #cards {
-  display: inline-block;
-  margin: 0 auto;
+  display: flex;
   text-align: center;
   gap: 3rem;
   background-color: $white;
@@ -10,7 +9,9 @@
 
 .card__grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  row-gap: 2rem;
   width: 100%;
 }
 
@@ -19,9 +20,24 @@
   border: .35rem solid $blue;
   border-radius: 1.5rem;
   color: $white;
-  margin: 1.5rem;
-  padding: 1rem;
-  width: 50rem;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 3rem;
+  width: 80%;
+}
+
+.card__translation {
+  margin: 5rem auto;
+}
+
+.card__label {
+  font-size: 1.8rem;
+}
+
+.card__content {
+  font-size: 1.2em;
+  line-height: 2rem;
+  letter-spacing: .2rem;
 }
 
 .related__concepts-item {
