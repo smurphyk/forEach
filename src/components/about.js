@@ -12,7 +12,10 @@ const About = () => {
         in order to extrapolate the contents of a JSON object, but the static query of the hypotenuse
         had a syntax error?  Yeah, nobody has, so why do all of the "beginner's" guides to web development
         present information in that way?! Not only is web development made up of a stupid number of concepts
-        and terms, those concepts and terms are constantly evolving. Web Dev forEach() is here to help you
+        and terms, those concepts and terms are constantly evolving.
+        <br></br>
+        <br></br>
+        Web Dev forEach() is here to help you
         understand the Kool-Aid as you drink it. With step-by-step tutorials and explanations that are presented
         for EVERYONE, we hope to help anybody as crazy as we are to reach their web development goals without
         making them feel like...well, Dummies (please don't sue us). Bottom line, if you want to learn how to

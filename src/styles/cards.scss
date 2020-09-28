@@ -20,14 +20,25 @@
   border: .35rem solid $blue;
   border-radius: 1.5rem;
   color: $white;
+  font-size: 1.5rem;
   font-weight: bold;
   margin: 0 auto;
   padding: 3rem;
   width: 80%;
 }
 
+.card__title {
+  color: $blue;
+}
+
+.card__definition {
+  padding: 3rem;
+  line-height: 4rem;
+  letter-spacing: .6rem;
+}
+
 .card__translation {
-  margin: 5rem auto;
+  padding: 3rem;
 }
 
 .card__label {
@@ -35,14 +46,15 @@
 }
 
 .card__content {
-  font-size: 1.2em;
-  line-height: 2rem;
-  letter-spacing: .2rem;
+  padding: 3rem;
+  line-height: 4rem;
+  letter-spacing: .4rem;
 }
 
 .related__concepts-item {
   list-style: none;
   text-align: center;
-  margin: .5rem auto;
+  margin: 0 auto;
   margin-right: 2rem;
+  line-height: .1rem;
 }

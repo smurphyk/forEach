@@ -246,7 +246,7 @@ const Cards = () => {
             <ListGroup variant="flush">
               <ListGroup.Item className="card__definition"><span className="card__label">Definition:</span>
                 <br></br>
-                <p className="card__definition-text">
+                <p className="card__content">
                   Semantic tags are tags which clearly describe their meaning in a human- and machine-readable way. &lt;header&gt;,
                   &lt;footer&gt;, and &lt;article&gt; are all considered semantic because they acurately describe the purpose of the
                   element and type of content that is contained within them.
@@ -269,9 +269,9 @@ const Cards = () => {
 
                   {/* Eventually make these links to other cards */}
 
-                  <li className="related__concepts-item card__content">Tags</li>
-                  <li className="related__concepts-item card__content">Elements</li>
-                  <li className="related__concepts-item card__content">Attributes</li>
+                  <li className="related__concepts-item">Tags</li>
+                  <li className="related__concepts-item">Elements</li>
+                  <li className="related__concepts-item">Attributes</li>
                 </ul>
               </ListGroup.Item>
             </ListGroup>
